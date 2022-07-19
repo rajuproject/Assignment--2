@@ -14,7 +14,7 @@ main{
     width: 1321px;
     height: 646px;
 }
-
+    /*-------------------------------start banner----------------------  */
 .Banner{
     background: #161616;
     border-radius: 30px;
@@ -28,7 +28,7 @@ main{
     margin-top: 111px;
     margin-bottom: 111px;
 }
-.banner-details {
+.banner-detail {
     width: 506px;
     height: 78px;
     color: white;
@@ -48,7 +48,7 @@ main{
     width: 581px;
     height: 613px;
 }
-button{
+.banner-button{
     background: #DD0000;
     border-radius: 5px;
     padding: 16px 25px;
@@ -60,3 +60,58 @@ button{
 button .fa-solid{
     margin-left:10px;
 }
+/*-------------------------------end banner----------------------  */
+
+/* ------------------------------start blog -----------------------*/
+
+.blog-img img{
+    width: 312px;
+    height: 175px;
+}
+.blog-icon{
+    display: flex;
+    align-items: center;
+    margin-left:0;
+    margin-top: ;
+
+}
+.blog-icon .clock, p{
+    margin-left: 30px;
+}
+
+.blog-icon p{
+    margin-left:10px;
+}
+.blog-post{
+    width: 312px;
+    height: 362px;
+    margin: 20px;
+
+    
+}
+.blog-info h3{
+    margin-bottom: 0;
+}
+.blog-button{
+    padding: 8px;
+    border-radius: 5px;
+    margin-left:0px;
+    margin-top: 15px;
+}
+.blog-detail{
+    padding:10px;
+
+}
+.smart-clock{
+        margin-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------end blog-------------------------- */
