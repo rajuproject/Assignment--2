@@ -5,3 +5,58 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 1321px;
+    height: 646px;
+}
+
+.Banner{
+    background: #161616;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.Banner-info{
+    width: 531px;
+    height: 424px;
+    margin-left: 106px;
+    margin-top: 111px;
+    margin-bottom: 111px;
+}
+.banner-details {
+    width: 506px;
+    height: 78px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.Banner-info .title{
+    font-size: 70px;
+    margin-bottom: 0px;
+    font-weight: 700px;
+    line-height: 80px;
+    color: white;
+
+}
+
+.Banner-img img{
+    width: 581px;
+    height: 613px;
+}
+button{
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+button .fa-solid{
+    margin-left:10px;
+}
