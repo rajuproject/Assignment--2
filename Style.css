@@ -113,7 +113,7 @@ button .fa-solid{
 }
 .blog-posts{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap:0;
     margin: 0;
 }
@@ -150,12 +150,15 @@ button .fa-solid{
 
 /* ------------------------------end blog-------------------------- */
 
-/* start footer  */
+/* -------------------start footer -------------------------------- */
 
 footer{
     height: 444px;
+    width: 100%;
     background-color: #161616;
     margin-left: 50px;
+    margin-left: 0px;
+
 
 }
 .footer-title{
@@ -169,6 +172,7 @@ footer{
 .contact ul{
     list-style: none;
     text-align: center;
+    display: flex;
 
 
    
@@ -197,7 +201,7 @@ footer{
     margin-top: 80px;
 }
 .line{
-    width: 1300px;
+    width: 1200px;
     border: .5px solid rgba(241, 231, 231, 0.1);
 }
 
