@@ -243,6 +243,7 @@ footer{
     .container{
         width: 450px;
         align-items: center;
+        text-align: center;
 }
 .Banner{
     border-radius: 10px;
@@ -251,6 +252,7 @@ footer{
     text-align: center;
     align-items: center;
     height: 900px;
+    width: 400px;
     
 
 }
@@ -262,25 +264,27 @@ footer{
 }
 .Banner-info .title{
     font-size: 30px;
-    width: 288px;
+    width: 300px;
     font-weight: 20px;
     line-height:40px ;
     text-align: center;
+    align-items: center;
 
 }
 .banner-detail {
-    width: 325px;
+    width: 250px;
     height: 88px;
     color: white;
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 0;
     text-align: center;
 }
 .banner-button{
-    margin-top: 15px;
+    margin-top: 55px;
     align-items: center;
     margin-right: 150px;
+    width: 200px;
+    height: autopx;
 }
 .Banner-img img{
     width: 400px;
@@ -290,6 +294,7 @@ footer{
 .blogs{
     display: grid;
     align-items: center;
+
 }
 .blog-index{
     margin-top: 10px;
@@ -308,21 +313,22 @@ footer{
 .index-blog{
     font-weight: 600px;
     font-size: 20px;
-    width: 300px;
-    height: 654px;
+    width: 306px;
+    height: 85px;
     margin: 15px 30px;
     padding: 17px 39px;
     border-radius: 10px;
     font-weight: 560;
     font-size: 25px;
-    margin-left: 65px;
+    margin-left: 30px;
+
 }
 .blog-posts{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
 .blog-post{
-    width: 470px;
+    width: 400px;
     height: 500px;
     margin-left:50px;
     align-items: center;
@@ -334,11 +340,11 @@ footer{
 }
 .blog-posts img{
     align-items: center;
-    width: 200p;
+    width: 150p;
 
 }
 .blog-img img{
-    width: 470px;
+    width: 400px;
     height: 300px;
 }
 
