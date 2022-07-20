@@ -17,11 +17,17 @@ main{
     margin-top: 60px;
 }
 @keyframes sliding{
-    form{
-        background: #7a6e6e;
+    25%{
+        background: #ee0d0d;
     }
-    to{
-        background: aquamarine;
+    50%{
+        background: #e84343;
+    }
+    75%{
+        background: #d6ffba;
+    }
+    100%{
+        background: rgb(26, 169, 122);
     }
 }
     /*-------------------------------start banner----------------------  */
@@ -61,14 +67,14 @@ main{
     margin-top: 10px;
 }
 .banner-button{
-    background: #DD0000;
+ 
     border-radius: 5px;
     padding: 16px 25px;
     color: white;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    animation: sliding infinite ease-in-out 0.1s infinite alternate;
+    animation:sliding 4s ease-in-out infinite;
     animation-play-state: running;
     transition: 2s linear;
 }
@@ -89,6 +95,7 @@ button .fa-solid{
     border-radius: 10px;
 
 }
+
 .index-blog{
     font-weight: 600px;
     font-size: 20px;
@@ -105,6 +112,12 @@ button .fa-solid{
 }
 .blog-index .fixed{
     background-color: red;
+}
+.index-blog:hover{
+    background-color: #ee0d0d;
+    box-shadow: black 0px 3px 6px -4px;
+    transition: .1s ease-in-out;
+
 }
 .blog-img img{
     width: 312px;
@@ -139,6 +152,11 @@ button .fa-solid{
     border-right: 2px solid silver;
     border-left: 2px solid silver;
     border-radius: 10px;
+}
+.blog-post:hover{
+    box-shadow: black 0px 3px 6px -4px;
+    transition: 1s ease-in-out;
+    
 }
 .blog-info h3{
     margin-bottom: 0;
