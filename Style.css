@@ -16,6 +16,14 @@ main{
     width: 1321px;
     margin-top: 60px;
 }
+@keyframes sliding{
+    form{
+        background: #7a6e6e;
+    }
+    to{
+        background: aquamarine;
+    }
+}
     /*-------------------------------start banner----------------------  */
 .Banner{
     background: #161616;
@@ -60,6 +68,9 @@ main{
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
+    animation: sliding infinite ease-in-out 0.1s infinite alternate;
+    animation-play-state: running;
+    transition: 2s linear;
 }
 button .fa-solid{
     margin-left:10px;
@@ -212,7 +223,8 @@ footer{
 /* -------------Mobile device ------------------*/
 @media only screen and (max-width: 688px) {
     .container{
-        width: 500px;
+        width: 450px;
+        align-items: center;
 }
 .Banner{
     border-radius: 10px;
@@ -221,6 +233,7 @@ footer{
     text-align: center;
     align-items: center;
     height: 900px;
+    
 
 }
 .Banner-info{
@@ -286,8 +299,9 @@ footer{
     font-size: 25px;
     margin-left: 65px;
 }
-.new{
-    width: 600px;
+.blog-posts{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 .blog-post{
     width: 470px;
@@ -312,7 +326,7 @@ footer{
 
 footer{
     align-items: center;
-    margin-left: 60px;
+    width:100%;
 }
 .footer-title{
     color: white;
@@ -322,16 +336,14 @@ footer{
     margin-bottom: 10px;
     
 }
-footer{
- width:668px;
 
-
-    
-
+.contact{
+    padding-left: 0;
 }
 .contact ul{
     list-style: none;
     text-align: center;
-
-   
+    display: flex;
+    flex-direction: column;
+    padding-left:0;
 }
