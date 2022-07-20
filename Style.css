@@ -4,18 +4,17 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-.main{
+main{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .container{
+    height: auto;
     width: 1321px;
-    height: 646px;
+
     margin-top: 60px;
 }
     /*-------------------------------start banner----------------------  */
@@ -154,6 +153,53 @@ button .fa-solid{
 
 /* start footer  */
 
+footer{
+    height: 444px;
+    background-color: #161616;
 
+}
+.footer-title{
+    color: white;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10px;
+    
+    
+
+}
+.contact ul{
+    list-style: none;
+    display: flex;
+
+   
+}
+.contact ul li {
+ color: white;
+ margin: 0 15px 15px 15px;
+
+}
+.fa-brands{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px 15px 15px;
+
+}
+.social-media{
+    display: flex;
+    color: white;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 80px;
+}
+.line{
+    width: 1300px;
+    border: .5px solid rgba(241, 231, 231, 0.1);
+}
 
 /* end footer  */
