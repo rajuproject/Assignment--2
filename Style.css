@@ -173,6 +173,9 @@ button .fa-solid{
     padding:10px;
 
 }
+.view{
+    visibility:hidden;
+}
 .smart-clock{
         margin-left: 0px;
 }
@@ -376,10 +379,66 @@ footer{
 
 /* -------------Tab device ------------------*/
 @media only screen and (min-width: 689px){
-
-.Banner{
-    width: 992px;
+.container{
+    width: 100%;
+    
+}
+.banner{
+    max-width: 600px;
 
 }
+
+.Banner-info{
+width:400px;
 }
+.Banner-info .title{
+    margin-top:0px;
+}
+
+.blogs{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.blog-index{
+ 
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width:700px
+}
+
+.blog-posts{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+}
+.blog-posts .extra{
+    display: none;
+    }
+}
+.view{
+    margin-top: 20px;
+    visibility:visible;
+    border-radius: 5px;
+    padding: 16px 25px;
+    background-color: rgb(244, 7, 7);
+    font-weight: 400;
+    font-size: 20px;
+    color: #f5ebeb;
+    width: 100px;
+    text-align: center;
+    height: auto;
+ 
+}
+.contact ul{
+    list-style: none;
+    display: flex;
+    width: 90%;
+}
+.contact ul li{
+    margin:0px;
+}
+
+
+
 
