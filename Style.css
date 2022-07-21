@@ -32,7 +32,6 @@ main{
 }
     /*-------------------------------start banner----------------------  */
 .Banner{
-    width: ;
     background: #161616;
     border-radius: 30px;
     display: grid;
@@ -66,20 +65,6 @@ main{
     width: 581px;
     height: 613px;
     margin-top: 10px;
-}
-.view{
-    margin-top: 20px;
-    visibility:visible;
-    border-radius: 5px;
-    padding: 16px 25px;
-    background-color: rgb(244, 7, 7);
-    font-weight: 400;
-    font-size: 20px;
-    color: #f5ebeb;
-    width: 100px;
-    text-align: center;
-    height: auto;
- 
 }
 .banner-button{
  
@@ -452,12 +437,7 @@ width:400px;
 .banner-detail{
     width: 80%;
 }
-.Banner-img img{
-    width: 350px;
-    height: 500px;
-    margin-top: 100px;
-    margin-left: -100px;
-}
+
 .blog-index .fixed{
     background-color: red;
 }
