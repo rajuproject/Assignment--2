@@ -371,3 +371,17 @@ footer{
     flex-direction: column;
     padding-left:0;
 }
+
+/* tablet media  */
+@media only screen and (min-width:688) and (max-width: 1024px){
+.Banner{
+    width: 300px;
+    background-color: rgb(223, 156, 32);
+}
+.Banner .Banner-info .title{
+    background-color: #ee0d0d;
+}
+.banner-detail{
+    color: red;
+}
+}}

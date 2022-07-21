@@ -371,3 +371,15 @@ footer{
     flex-direction: column;
     padding-left:0;
 }
+}
+
+
+/* -------------Tab device ------------------*/
+@media only screen and (min-width: 689px){
+
+.Banner{
+    width: 992px;
+
+}
+}
+
