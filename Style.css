@@ -32,6 +32,7 @@ main{
 }
     /*-------------------------------start banner----------------------  */
 .Banner{
+    width: ;
     background: #161616;
     border-radius: 30px;
     display: grid;
@@ -66,6 +67,20 @@ main{
     height: 613px;
     margin-top: 10px;
 }
+.view{
+    margin-top: 20px;
+    visibility:visible;
+    border-radius: 5px;
+    padding: 16px 25px;
+    background-color: rgb(244, 7, 7);
+    font-weight: 400;
+    font-size: 20px;
+    color: #f5ebeb;
+    width: 100px;
+    text-align: center;
+    height: auto;
+ 
+}
 .banner-button{
  
     border-radius: 5px;
@@ -93,6 +108,7 @@ button .fa-solid{
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    align-items: center;
 
 }
 
@@ -106,9 +122,12 @@ button .fa-solid{
     border-radius: 10px;
     font-weight: 500;
     font-size: 20px;
+    align-items: center;
 }
 .blogs{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  
 }
 .blog-index .fixed{
     background-color: red;
@@ -312,6 +331,7 @@ footer{
     margin-left: 50px;
 
 
+
 }
 .index-blog{
     font-weight: 600px;
@@ -378,7 +398,7 @@ footer{
 
 
 /* -------------Tab device ------------------*/
-@media only screen and (min-width: 689px){
+@media only screen and (max-width: 689px){
 .container{
     width: 100%;
     
@@ -396,17 +416,18 @@ width:400px;
 }
 
 .blogs{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-.blog-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .blog-index{
  
-    background-color: white;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width:700px
-}
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width:700px;
+       
+    }
 
 .blog-posts{
     display: grid;
@@ -416,29 +437,48 @@ align-items: center;
     display: none;
     }
 }
-.view{
-    margin-top: 20px;
-    visibility:visible;
-    border-radius: 5px;
-    padding: 16px 25px;
-    background-color: rgb(244, 7, 7);
-    font-weight: 400;
-    font-size: 20px;
-    color: #f5ebeb;
-    width: 100px;
-    text-align: center;
-    height: auto;
- 
-}
+
 .contact ul{
     list-style: none;
     display: flex;
-    width: 90%;
+    width: 500px;
+   
 }
 .contact ul li{
-    margin:0px;
+    margin:10px;
+    font-size: 12px;
+
+}
+.banner-detail{
+    width: 80%;
+}
+.Banner-img img{
+    width: 350px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: -100px;
+}
+.blog-index .fixed{
+    background-color: red;
 }
 
+.fixed{
+
+    width: 200px;
+}
+.all{
+    margin-left:0px;
+    margin-right: 2px;
+    width: 200px;
+}
+.new{
+    width: 250px;
+}
+.contact{
+    width: 500px;
+    height: 300px;
+
+}
 
 
 
